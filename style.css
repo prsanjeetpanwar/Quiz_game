@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+   background-color:rgb(172, 211, 220) ;
+
+
+}
+
+html{
+    font-size: 52.5%;
+    
+    
+
+
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(194, 224, 227);
+
+
+}
+.inner-div{
+    width: 42vw;
+    
+        background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem  1rem -0.3rem rgba(0, 0, 0, 0.5);
+    background: #fff;
+
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin:1rem 0 4rem 0;
+    background: #fff;
+
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    background: #fff;
+}
+label{
+    background: #fff;
+}
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+padding: 1rem 3rem;
+outline: none;
+font-size: 2rem;
+font-weight: 400;
+display: block;
+margin: auto;
+outline: none;
+border: none;
+text-transform: uppercase;
+color: #fff;
+background:linear-gradient(to right,#42ddc1,#3a54c6);
+margin-top: 4rem;
+}
+
+#submit:hover{
+background: linear-gradient(to right,#24ca56,#1f78c2);
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem  1rem -0.3rem rgba(0, 0, 0, 0.5);
+    background: #dfe6e9;
+    background-color: #fff;
+
+
+}
+.scoreArea{
+display: none;
+background-color:#dfe6e9 ;
+}
+#showScore{
+ background-color: #fff;
+ box-shadow: 0 1rem  1rem -0.3rem rgba(0, 0, 0, 0.5);
+
+}
